@@ -1,5 +1,7 @@
 # 🌆 Lawless City — Flythrough Demo
 
+![Lawless City Preview](./public/screenshots/scene_preview.png)
+
 An atmospheric, low-poly 3D urban environment walkthrough built with **React Three Fiber (R3F)** and **Theatre.js**. This project features a stylized night scene with customized warm sodium-vapor lighting, dynamic camera movements, and a custom water feature.
 
 ---
