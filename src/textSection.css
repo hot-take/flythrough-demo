@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #050505; /* Set your desired background color */
+  color: white; /* Set your desired text color */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 2.5rem; /* Set your desired font size */
+  margin-left: 50px;  /* Set your desired margin */
+  text-transform: capitalize;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(58, 13, 13);
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: rgb(163, 163, 163); /* Set your desired text color */
+  margin-right: 50px; /* Set your desired margin */
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 10px 20px; /* Adjusted padding for larger box size */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+
+.navbar-right a:hover {
+  background-color: rgb(58, 13, 13); /* Dark red background color on hover */
+  color: white; /* Text color on hover */
+}
